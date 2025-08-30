@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-family: "montserrat", sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 05px;
+
+    
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+img {
+    border:solid 5px;
+    border-radius: 50px;
+    
+}
+
+.container-img{
+
+    
+}
+
+
+.conteiner-tempo li{
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    width: fit-content;
+    border-radius: 8px;}
+
+p{
+    text-align: :justify;
+    margin: bottom: 30px;
+
+
+}
+
+.conteiner-ingredientes li{background-color: black;
+    .container-tempo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+}
