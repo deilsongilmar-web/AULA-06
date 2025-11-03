@@ -1,61 +1,149 @@
+/*
+ * Arquivo: style.css
+ * Localização: /css/style.css
+ */
+
+/* Reset Básico e Configuração da Fonte */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-
-    font-family: "montserrat", sans-serif;
-    
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+    max-width: 900px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
 }
 
+/* Tipografia e Títulos */
 h1 {
     text-align: center;
-    margin-bottom: 05px;
-
-    
+    color: #a52a2a; /* Um tom de marrom/vermelho para destaque */
+    margin-bottom: 20px;
+    padding-top: 10px;
 }
 
-.container-img{
+h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin: 30px 0 15px 0;
+}
+
+h3 { /* Introdução */
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+/* Imagem Principal */
+.container-img {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.container-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização da Lista de Ingredientes */
+.lista-ingredientes {
+    list-style-type: disc;
+    margin-left: 40px;
+    padding-left: 10px;
+    column-count: 2; /* Divide a lista em duas colunas em telas maiores */
+    column-gap: 40px;
+}
+
+.lista-ingredientes li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+/* Seção de Tempos (Preparação e Forno) */
+.tempos {
     display: flex;
-    justify-content: center;
-    
-
-}
-
-img {
-    border:solid 5px;
-    border-radius: 50px;
-    
-}
-
-.container-img{
-
-    
-}
-
-
-.conteiner-tempo li{
-    background-color: rgb(24, 24, 24);
+    justify-content: space-around;
+    background-color: #ffe4e1; /* Um rosa claro para fundo */
     padding: 15px;
-    width: fit-content;
-    border-radius: 8px;}
-
-p{
-    text-align: :justify;
-    margin: bottom: 30px;
-
-
+    border-radius: 8px;
+    margin: 30px 0;
+    text-align: center;
 }
 
-.conteiner-ingredientes li{background-color: black;
-    .container-tempo {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  list-style: none;
-  margin-bottom: 30px;
+.tempo-item {
+    display: flex;
+    flex-direction: column;
 }
 
+.valor-tempo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #a52a2a;
+}
+
+.descricao-tempo {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #777;
+    margin-top: 5px;
+}
+
+
+/* Modo de Preparo */
+.passos-preparo {
+    list-style: none; /* Remove os marcadores de lista padrão */
+    counter-reset: passo-counter; /* Inicializa o contador */
+    padding: 0;
+}
+
+.passos-preparo li {
+    counter-increment: passo-counter; /* Incrementa o contador */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.passos-preparo li::before {
+    content: "Passo " counter(passo-counter) ": ";
+    font-weight: 700;
+    color: #a52a2a;
+    font-size: 1.1rem;
+}
+
+.passos-preparo li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.passos-preparo li p {
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    font-size: 0.8rem;
+    color: #999;
 }
