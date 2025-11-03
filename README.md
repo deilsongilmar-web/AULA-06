@@ -24,7 +24,7 @@ Para visualizar a página de receita:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [link-do-seu-repositorio]
+    git clone [https://github.com/deilsongilmar-web/AULA-06]
     cd fricasse-de-frango-pratico
     ```
 2.  **Abra o Arquivo:** Simplesmente abra o arquivo `index.html` em qualquer navegador (Chrome, Firefox, Edge, etc.).
