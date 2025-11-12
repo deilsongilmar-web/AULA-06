@@ -3,7 +3,7 @@
 
 # 🍲 Fricassê de Frango Prático - Layout de Receita
 
-![Image](![Image](https://github.com/user-attachments/assets/bec30faf-32e3-4607-bbf9-2856bbcd72a6))
+https://github.com/user-attachments/assets/bec30faf-32e3-4607-bbf9-2856bbcd72a6
 
 ## 📝 Descrição do Projeto
 
