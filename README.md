@@ -3,7 +3,7 @@
 
 # 🍲 Fricassê de Frango Prático - Layout de Receita
 
-![Image](fricasse-de-frango-com-creme-de-milho-00-e1678101199184-730x480)
+![Image](![Image](https://github.com/user-attachments/assets/bec30faf-32e3-4607-bbf9-2856bbcd72a6))
 
 ## 📝 Descrição do Projeto
 
