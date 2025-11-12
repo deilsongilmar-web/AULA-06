@@ -3,8 +3,7 @@
 
 # 🍲 Fricassê de Frango Prático - Layout de Receita
 
-!(https://github.com/user-attachments/assets/bec30faf-32e3-4607-bbf9-2856bbcd72a6)
-
+![Image](https://github.com/user-attachments/assets/bec30faf-32e3-4607-bbf9-2856bbcd72a6)
 ## 📝 Descrição do Projeto
 
 Este projeto é um *layout* simples e responsivo (adaptável a diferentes telas) para apresentar a receita de **Fricassê de Frango Prático**. O objetivo principal foi organizar um código HTML já existente, aplicar boas práticas de semântica e estilizar com CSS para criar uma página de receita legível e visualmente agradável.
